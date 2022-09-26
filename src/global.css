@@ -1,0 +1,105 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1c1c1c;
+  color: rgb(39, 0, 39);
+  text-shadow: 1px 1px 2px lightblue;
+}
+
+p {
+  margin: 6px 0;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  height: 40px;
+  margin: 6px 0;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 2px solid #836fff;
+  color: rgb(54, 0, 92);
+  padding-left: 8px;
+  padding-top: auto;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.react-select__control {
+  margin: 0;
+  border: 2px solid #836fff !important;
+  border-radius: 8px !important;
+  cursor: pointer !important;
+  transition: all 0.5s !important;
+  color: rgb(54, 0, 92) !important;
+}
+
+input:hover,
+select:hover,
+button:hover,
+.react-select__control:hover {
+  border-color: #4b0082 !important;
+  color: #4b0082 !important;
+}
+
+.card {
+  width: fit-content;
+  height: fit-content;
+  margin: 5px;
+  background: #836fff;
+  padding: 10px;
+  box-shadow: 0 0 100px rgba(138, 43, 226, 0.4);
+  border-radius: 8px;
+}
+
+.container-nova-movimentacao
+  .container-card
+  .form
+  .grupo
+  .react-select
+  .react-select__control,
+.container-nova-movimentacao
+  .container-card
+  .form
+  .grupo
+  .react-select
+  .react-select__value-container,
+.container-nova-movimentacao
+  .container-card
+  .form
+  .grupo
+  .react-select
+  .react-select__value-container
+  .react-select__placeholder,
+.container-nova-movimentacao
+  .container-card
+  .form
+  .grupo
+  .react-select
+  .react-select__value-container
+  .react-select__input {
+  width: 100%;
+  height: 100%;
+  line-height: 40px;
+  position: relative;
+}
+
+.container-nova-movimentacao
+  .container-card
+  .form
+  .grupo
+  .react-select
+  .react-select__value-container
+  .react-select__single-value {
+  width: 100%;
+  height: 100%;
+  line-height: 40px;
+  position: sticky;
+}
